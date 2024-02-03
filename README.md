@@ -12,3 +12,5 @@ function mystery(a) {
     else return a[0];
 }
 ```
+
+This function takes a string, and returns the reverse of that string in single character substrings.
