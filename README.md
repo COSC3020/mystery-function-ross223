@@ -13,4 +13,4 @@ function mystery(a) {
 }
 ```
 
-This function takes a string, and returns the reverse of that string in single character substrings.
+This function returns the largest alphabet character in a given string. For instance, if given a string "abc" the character "c" will be returned.
