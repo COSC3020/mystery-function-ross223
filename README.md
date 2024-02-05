@@ -13,4 +13,4 @@ function mystery(a) {
 }
 ```
 
-This function returns the largest alphabet character in a given string. For instance, if given a string "abc" the character "c" will be returned.
+This function returns the largest character in a given array. For instance, if the function is given ['a', 'b', 'c'] then it will return 'c'. It refers to letters in their unicode counterparts, and since strings are stored as arrays it works with those as well.
