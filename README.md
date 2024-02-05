@@ -13,4 +13,4 @@ function mystery(a) {
 }
 ```
 
-This function returns the largest character in a given array. For instance, if the function is given ['a', 'b', 'c'] then it will return 'c'. It refers to letters in their unicode counterparts, and since strings are stored as arrays it works with those as well.
+This function returns the largest character in a given array. In an array of numbers it will return the largest number. If the array is made out of characters it will convert them to their unicode counterparts allowing for comparisons and will find the furthest letter in the alphabet. In an array of non-numeric strings and numbers, the strings are converted to an always false variable which results in varried outputs based on where the strings are located in the array due to where the comparisons happen during recursion. For instance, an array of [1, 'a', 'b', 1, 2] will return 1 but an array of ['a', 'b', 1, 1, 2] will return b. 
